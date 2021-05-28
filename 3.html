@@ -1,60 +1,78 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport"
-     content="width=device-width">
-    <title>we go to one </title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-79TW88HFPX"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>we go to one </title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-79TW88HFPX">
+	</script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-79TW88HFPX');
-</script>
-<style>
-body {
-  margin:0;
-}
 
-h1 {
-  border-bottom:1px  solid green;
-  text-align:center;
-  margin:0;
-  padding:5px;
+	</script>
+	<style>
+		body {
+			margin: 0;
+		}
+
+		h1 {
+			border-bottom: 1px solid green;
+			text-align: center;
+			margin: 0;
+			padding: 5px;
+		}
+
+		.as {
+			text-decoration: none;
+			color: green;
+		}
+
+		ol {
+			border-right: 1px solid green;
+			color: green;
+			width: 65px;
+			margin: 0;
+			padding: 20px;
+		}
+#asd {
+  display:grid;
+  grid-template-columns:150px 1fr;
 }
-.as {
-  text-decoration: none;
-  color:green;
-}
+@media(max-width:700px){
+#asd {
+  display:block;
+} 
 ol {
- border-right:1px solid green;
- color:green;
- width:65px;
- margin:0;
- padding:20px;
-}
-</style>
-  </head>
+			border-right:none;
+} 
+	</style>
+</head>
 
-  <body>
- <h1><a href="index.html"class=as>Match매치</a></h1>
- <ol>   
-  <li><a href="1.html"class=as> soccer</a></li>
-  <li><a href="2.html"class=as> footsal</a></li>
-  <li><a href="3.html"class=as> baseball</a></li>
-</ol>
- 
-  <h2>baseball</h2>
-  we just want to play footsal
-<p>isn't it?</p><p> cuz we ready to give some service for you</p>
- 
+<body>
+	<h1><a href="index.html" class=as>Match매치</a></h1>
+	<div id="asd">
+		<ol>
+			<li><a href="1.html" class=as> soccer</a></li>
+			<li><a href="2.html" class=as> footsal</a></li>
+			<li><a href="3.html" class=as> baseball</a></li>
+		</ol>
+		<div>
+			<h2>baseball</h2>
+			we just want to play footsal
+			<p>isn't it?</p>
+			<p> cuz we ready to give some service for you</p>
 
-   <img src="baseball-illustration-png1.png" width="50%">
-  
+
+			<img src="baseball-illustration-png1.png" width="50%">
+ </div>
+ </div>  
     <script src="script.js"></script>
      <div id="disqus_thread"></div>
 <script>

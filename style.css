@@ -1,0 +1,27 @@
+a {
+			color: black;
+			text-decoration: none;
+		}
+
+		h1 {
+			font-size: 45px;
+			text-align: center;
+			border-bottom: 1px solid green;
+		}
+
+		#1 {
+			display: grid;
+			grid-template-columns: 150px 1fr
+		}
+    #list {
+      display: grid;
+			grid-template-columns: 150px 1fr
+    }
+@media(max-width:700px){
+ #list {
+      display: block;
+		 }
+
+
+
+}  
